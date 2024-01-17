@@ -1,4 +1,12 @@
-body {
-    text-align: center;
-    margin: 0;
+
+
+main {
+    margin-inline: auto;
+    margin: 20px;
+    margin-left: ;
+    width: 60%;
+}
+
+li {
+    align-items: left; 
 }
