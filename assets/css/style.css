@@ -1,9 +1,10 @@
-
+header {
+    text-align: center;
+}
 
 main {
-    margin-inline: auto;
-    margin: 20px;
-    margin-left: ;
+    text-align: center;
+    margin: auto;
     width: 60%;
 }
 
