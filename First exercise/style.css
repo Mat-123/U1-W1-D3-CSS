@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+li {
+    align-items: left; 
+}

@@ -1,13 +1,87 @@
-header {
-    text-align: center;
+* {
+  font-family: Georgia, serif;
+}
+body {
+  text-align: center;
+  margin: 0;
 }
 
-main {
-    text-align: center;
-    margin: auto;
-    width: 60%;
+header img {
+  width: 200px;
+  margin: 1rem 0;
+}
+
+nav {
+  background-color: #fefbf1;
+  padding: 1rem 0;
+  font-size: 0.8em;
+  color: #004d4d;
+  border-top: 1px solid #ffd977;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.article {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+
+.article video {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.author {
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.featured {
+  border-left: 1px solid #ffd977;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.featured span {
+  color: #b5460f;
+  display: block;
+}
+
+.featured a,
+.link {
+  color: #177;
+}
+
+.ingredients {
+  margin-top: 4rem;
+}
+
+.sectionheader {
+  border-bottom: 1px solid rgb(197, 243, 243);
+  margin-bottom: 2rem;
+}
+
+.ingredients p,
+ol li p:first-of-type {
+  font-weight: bold;
+}
+
+ul {
+  margin-bottom: 2rem;
 }
 
 li {
-    align-items: left; 
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 100;
 }
